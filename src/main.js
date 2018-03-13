@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 import Vuetify from 'vuetify'
 import css from 'vuetify/dist/vuetify.css'
-
+import expect from 'expect'
  
 Vue.use(Vuetify)
 

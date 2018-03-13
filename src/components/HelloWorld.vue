@@ -6,6 +6,7 @@
 
         <v-layout>
           <v-flex xs4 offset-xs4>
+          <subComp class="mb-5"></subComp>         
             <h2>LOGIN FORM</h2>
             <v-text-field class="black--text" id="usern"
               name="input-1"
@@ -22,7 +23,6 @@
 
           <v-btn primary id="login" v-on:click="update">LOGIN</v-btn>
 
-         
           </v-flex>
         </v-layout>
 
@@ -34,8 +34,10 @@
 
 
 <script>
+import subComp from './subComp.vue'
 export default {
   name: 'HelloWorld',
+  components:{subComp},
   data () {
     return {
        username: '',
