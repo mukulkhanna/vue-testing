@@ -41,3 +41,8 @@ describe('Stepper data flow test',function(){
         //expect(wrapper.vm.e1).toBe(2)
     })
 })
+
+
+
+
+
