@@ -2,7 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import Vuetify from 'vuetify'
-import VueX from 'vue-x'
+import Vuex from 'vuex'
 import router from './router'
 import css from 'vuetify/dist/vuetify.css'
 import expect from 'expect'

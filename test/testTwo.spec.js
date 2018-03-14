@@ -1,4 +1,4 @@
-import {shallow} from '@vue/test-utils'
+//import {shallow} from '@vue/test-utils'
 import { mount } from '@vue/test-utils'
 
 import stepper from '../src/components/Stepper.vue'
@@ -36,10 +36,23 @@ describe('Stepper data flow test',function(){
 
     it('should emit e1 values to parent to move between steps',()=>{
         let button = step1.find('v-btn')
-        expect(button.text()).toBe('BONTINUE')
+        expect(button.text()).toBe('ZONTINUE')
         button.trigger('click')
         //expect(wrapper.vm.e1).toBe(2)
     })
+
+    // it('should not allow to proceed with wrong data input',()=>{
+
+    // })
+
+    // it('should clear temp object contents and push object into array on final submit press',()=>{
+    //     let final = three.find('#final')
+    //     final.trigger('click')
+        
+    // })
+
+
+
 })
 
 
