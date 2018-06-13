@@ -20,7 +20,7 @@
               
             ></v-text-field>
 
-          <v-btn primary id="login" v-on:click="update">LOGIN</v-btn>
+          <v-btn color="primary" id="login" v-on:click="update">LOGIN</v-btn>
 
          
           </v-flex>
